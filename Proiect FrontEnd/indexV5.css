@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    padding:0;
+}
+
+@font-face {
+    font-family: "Lato Black";
+    src: url("fonts/lato-black.eot"), url("fonts/lato-black.ttf"), url("fonts/lato-black.woff");
+}
+
+@font-face {
+    font-family: "Lato Bold";
+    src: url("fonts/lato-bold.eot"), url("fonts/lato-bold.ttf"), url("fonts/lato-bold.woff");
+}
+
+@font-face {
+    font-family: "Lato Hairline";
+    src: url("fonts/lato-hairline.eot"), url("fonts/lato-hairline.ttf"), url("fonts/lato-hairline.woff");
+}
+
+@font-face {
+    font-family: "Lato Light";
+    src: url("fonts/lato-light.eot"), url("fonts/lato-light.ttf"),  url("fonts/lato-light.woff");
+}
+
+@font-face {
+    font-family: "Raleway Bold";
+    src: url("fonts/raleway-bold.eot"), url("fonts/raleway-bold.ttf"), url("fonts/raleway-bold.woff");
+}
+
+@font-face {
+    font-family: "Raleway Light";
+    src: url("fonts/raleway-light.eot"), url("fonts/raleway-light.ttf"), url("fonts/raleway-light.woff");
+}
+
+@font-face {
+    font-family: "Raleway Regular";
+    src: url("fonts/raleway-regular.eot"), url("fonts/raleway-regular.ttf"), url("fonts/raleway-regular.woff");
+}
+
+@font-face {
+    font-family: "Raleway Semibold";
+    src: url("fonts/raleway-semibold.eot"), url("fonts/raleway-semibold.ttf"), url("fonts/raleway-semibolde.woff");
+}
+
+@font-face {
+    font-family: "Lato Regular";
+    src: url("fonts/Lato-Regular.eot"), url("fonts/Lato-Regular.ttf"), url("fonts/Lato-Regular.woff");
+}
+
+.raleway-bold {
+    font-family: "Raleway Bold";
+}
+
+.raleway-regular {
+    font-family: "Raleway Regular";
+}
+
+.lato-hairline {
+    font-family: "Lato Hairline"
+}
+
+.lato-regular {
+    font-family: "Lato Regular";
+}
+
+.lato-black {
+    font-family: "Lato Black";
+}
+
+.lato-light {
+    font-family: "Lato Light";
+}
+
+.lato-bold {
+    font-family: "Lato Bold";
+}
+
+.lato-hairline {
+    font-family: "Lato Hairline";
+}
+
+.raleway-light {
+    font-family: "Raleway Light";
+}
+
+.raleway-semibold {
+    font-family: "Raleway Semibold"
+}
+
+.font-22px {
+    font-size: 1.7rem;
+}
+
+.font-26px {
+    font-size: 2.1rem;
+}
+
+.font-14px {
+    font-size: 0.9rem;
+}
+
+.font-12px {
+    font-size: 0.7rem;
+}
+
+.font-16px {
+    font-size: 1.1rem;
+}
+
+.font-60px {
+    font-size: 5rem;
+}
+
+.font-18px {
+    font-size: 1.3rem;
+}
+
+.font-30px {
+    font-size: 2.5rem;
+}
+
+.font-34px {
+    font-size: 2.9rem;
+}
+
+.white {
+    color: white;
+}
+
+.line-height1 {
+    line-height: 1;
+}
+
+.center {
+    text-align: center;
+}
+
+.margin-top7 {
+    margin-top: 7.5%;
+}
+
+.negative-margin {
+    margin-bottom: -0.5em;
+    margin-top: -0.5em;
+}
+.header {
+    background: url(img/hero.jpg) no-repeat center;
+    background-size: cover;
+    height: 35.000em;
+}
+
+.menu {
+    position: relative;
+    top: 3%;
+}
+
+.menu-item {
+    display: inline;
+    padding-right: 0.500em;
+    float: right;
+}
+
+.billboard {
+    position: relative;
+    top: 20%;
+    padding-left: 1.500em;
+}
+
+.details {
+    display: inline-block;
+}
+
+.main-services_button {
+    margin: 0 auto;
+    width: 13.625em;
+    height: 3.450em;
+    background-color: #fbdd90;
+    border: 1px black dashed;
+}
+
+.quote {
+    height: 32.000em;
+    background-image: url(img/quote_bg.jpg);
+    background-size: cover;
+}
+
+.quote-block {
+   position: relative;
+   top: 40%;
+}
+
+.arrow-btn {
+    float: right;
+    width: 2.500em;
+    height: 2.500em;
+    background-color: #fbdd90;
+    border: 1px black dashed;
+}
+
+.testi-nav-center {
+    margin: 0 auto;
+}
+
+.call-to-action {
+    background-image: url(img/cubes.png);
+}
+
+.google-map {
+    height: 28.750em;
+    background-image: url(img/shadow.png), url(img/shortcode_gmap.png);
+    background-position: bottom, center;
+    background-repeat: repeat-x, no-repeat;
+    background-size: 1% 50%, cover;
+}
+
+.marker-middle {
+    position: relative;
+    top: 44%;
+    left: 49%;
+}
+
+.footer-background {
+    background-color: #535353;
+    background-size: cover;
+    height: 22.000em;
+}
+
+.footer-items-position {
+    position: relative;
+    top: 30%;
+}
+
+.social-media {
+    list-style: none;
+}
+
+.social-media-spacing {
+    padding-bottom: 0.313em;
+    padding-right: 1.000em;
+}
+
+.padding-left-3em {
+    padding-left: 3.000em;
+}
+
+.padding-right-3em {
+    padding-right: 3.000em;
+}
